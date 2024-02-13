@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+	  <TargetFrameworks>net6.0</TargetFrameworks>
+	  <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="docs\en\" />
+    <Folder Include="docs\ru\" />
+    <Folder Include="shared\lin64\" />
+    <Folder Include="shared\osx64\" />
+    <Folder Include="shared\win64\" />
+    <Folder Include="lib\" />
+    <Folder Include="tests\" />
+    <Folder Include="tools\cli\" />
+    <Folder Include="tools\gui\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ConsoleTables" Version="2.6.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="WebSocket4Net" Version="0.15.2" />
+    <PackageReference Include="WebSocketSharp-netstandard" Version="1.0.1" />
+  </ItemGroup>
+
+</Project>
